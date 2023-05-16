@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #6c63ff;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  img {
+    justify-content: center;
+  }
+}
+
+.navbar {
+  padding: 10px;
+}
+
+p {
+  padding: 10px 5px;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 300px;
+}
